@@ -1,5 +1,9 @@
-# github-achievements-test
+# gh-profile-progress
 
-A throwaway public repository used to earn GitHub profile achievements. Nothing here is a project.
+Prints your GitHub profile achievement progress from the `gh` CLI: merged pull requests against the Pull Shark tiers and your most-starred repository against the Starstruck tiers.
 
-Paired commit for the Pair Extraordinaire achievement.
+```
+bash progress.sh
+```
+
+Needs `gh` logged in. Tier thresholds are the community-documented ones; GitHub publishes no official list.
